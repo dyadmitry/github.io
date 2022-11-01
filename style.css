@@ -1,0 +1,168 @@
+body {
+	background: #fff;
+	color: #000;
+	position: relative;
+}
+
+.margin {
+	padding: 30px;
+	border: 1px solid #000;
+	text-align: center;
+	color: red;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+.header-btn {
+	display: inline-block;
+	cursor: pointer;
+	background: grey;
+	font-size: 30px;
+	padding: 12px 40px;
+	border-radius: 45px;
+	margin: 100px 200px;
+	opacity: 0.7;
+	transition: all 0.3s;
+}
+
+.header-btn:hover {
+	opacity: 1;
+}
+
+.reverse {
+	color:  #fff;
+	background: #000;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.input {
+	outline: none;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.give-button {
+	cursor: pointer;
+}
+
+.result {
+	min-width: 200px;
+	background: gray;
+	min-height: 30px;
+}
+
+.form-popup-wrap {
+	display: none;
+	padding: 20px;
+	max-width: 500px;
+	width: 100%;
+	border-radius: 6px;
+	background: #212121;
+	position: relative;
+}
+
+.form-popup-wrap.opened {
+	display: block;
+	position: fixed;
+	top: 200px;
+	left:  calc(50% - 250px);
+}
+
+.popup-close {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	cursor: pointer;
+}
+
+.form-popup {
+	display: flex;
+	justify-content: space-between;
+}
+
+.form-popup-email {
+	padding: 10px;
+	outline: none;
+}
+
+.form-popup-btn {
+	padding: 10px;
+}
+
+.popup {
+	font-size: 30px;
+	padding: 50px;
+	margin: 50px;
+	cursor: pointer;
+}
+
+
+
+.gallery-arr {
+	display: flex;
+}
+
+.slider-wrap {}
+.slider {}
+
+.slider-item {
+	margin: 25px;
+	min-height: 400px;
+	min-width: 400px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	border:  3px solid #212121;
+	border-radius: 13px;
+}
+
+/*slick*/
+.slick-dots {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+
+.slick-dots button {
+	cursor: pointer;
+	margin: 10px;
+
+}
+
+.slick-active button {
+	background: gray;
+}
+
+.slider-owl {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+
+.graph {
+	height: 360px;
+}
+
+
+.graph-in {
+	width: 1000px;
+	
+	margin: 0 auto;
+}
+
+
+.graph-wrap {
+	padding-top: 80px;
+}
+
+.graph-icons {
+	display: flex;
+	justify-content: space-around;
+}
